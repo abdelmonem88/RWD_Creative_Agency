@@ -512,6 +512,12 @@ body {
 	overflow: hidden;
 }
 
+@media (max-width: 767px) {
+	.skills .skill-box .skill-prgress {
+		margin-bottom: 15px;
+	}
+}
+
 .skills .skill-box .skill-prgress span {
 	position: absolute;
 	left: 0;
@@ -524,8 +530,9 @@ body {
 }
 
 .skills .skill-box .skill-percentage {
-	padding: 0 10px;
+	padding: 0 20px;
 	font-weight: bold;
+	text-align: center;
 }
 /* End our skills section */
 /***********************************/
@@ -1043,6 +1050,7 @@ body {
 
 .footer-list li {
 	display: inline-block;
+	margin-bottom: 10px;
 }
 
 .footer-list li a {
@@ -1073,6 +1081,12 @@ body {
 /* End footer section */
 
 /* Start Grid System */
+@media (max-width: 768px) {
+	.cover {
+		min-height: 40vh;
+	}
+}
+
 @media (min-width: 576px) {
 	/* Phones*/
 	.container {
